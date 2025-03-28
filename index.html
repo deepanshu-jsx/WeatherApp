@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER APP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="card">
+        <div class="search">
+            <form  class="sub">
+                <input type="text" spellcheck="false" placeholder="enter city name" required>    
+                <button class="btn"><i class="fa-solid fa-magnifying-glass"></i></button>    
+            </form>            
+        </div>
+        <div class="error">
+            <p><a href="index.html" style="color: red;">Invalid City Name</a></p>
+        </div>
+        <div class="weather">
+          <img src="images/download-removebg-preview.png" alt="image" class="weather-img">
+          <p class="know"></p>
+          <h1 class="temp"> 22°c</h1>
+          <h2 class="City">Belgium</h2>
+
+          <div class="details">
+            <div class="col">
+                <img src="images/humi.svg" alt="Humidity">
+                <div class="p">
+                <p class="humi">50%</p>
+                <p> Humidity</p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="images/5729377_weather_windy_climate_forecast_storm_icon.svg" alt="Rainy">
+                <div class="p">
+                <p class="wind">10km/hr</p>
+                <p>Wind Speed</p>
+                </div>
+          </div>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
